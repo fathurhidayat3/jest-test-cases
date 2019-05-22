@@ -30,6 +30,10 @@ test("Check async profile", () => {
  * this test will automatically fail
  */
 // test("Check async profile", () => {
+//   return expect(getProfile()).resolves.toEqual(profile);
+// }, 30000);
+
+// test("Check async profile", () => {
 //   return expect(getProfile()).resolves.toEqual(
 //     expect.objectContaining({
 //       name: "Leanne Graham",

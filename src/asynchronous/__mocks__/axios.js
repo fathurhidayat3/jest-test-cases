@@ -2,7 +2,7 @@
 const profile = require("../../dummy/profile");
 
 const get = url => {
-  return Promise.resolve({ data: profile });
+  return profile ? Promise.resolve({ data: profile }) : Promise.reject();
 };
 
 module.exports = { get: get };
